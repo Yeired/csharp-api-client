@@ -17,6 +17,8 @@ namespace MifielAPI.Objects
         public string OriginalHash { get; set; }
         [JsonProperty("name")]
         public string FileName { get; set; }
+        [JsonProperty("file_file_name")]
+        public string File_FileName { get; set; }
         [JsonProperty("signed_by_all")]
         public bool SignedByAll { get; set; }
         [JsonProperty("signed")]
